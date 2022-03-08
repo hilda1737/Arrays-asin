@@ -14,8 +14,14 @@ fun main(){
     var k = arrayOf(32,17,4,213,78,43,90,31,3,73,11,158,62)
     var sum = k[2]+k[5]
     println(sum)
+
+    var l = k.sortedArray()
+    println(l.contentToString())
+
     var p = (k.indexOf(158))
     println(p)
+
+
 
 
 
